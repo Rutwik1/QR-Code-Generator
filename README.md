@@ -2,6 +2,7 @@
 This project is a QR code generator app built using HTML, CSS, and JavaScript. It utilizes a QR code generator API to generate QR codes based on user input. The app is designed to be responsive and looks great on all devices.
 
 <h3>Getting Started</h3>
+
 To use the app, follow these steps:
 
 Clone or download the project files to your local machine.
