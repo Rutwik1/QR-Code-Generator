@@ -1,4 +1,4 @@
-QR Code Generator
+<h1>QR Code Generator</h1>
 This project is a QR code generator app built using HTML, CSS, and JavaScript. It utilizes a QR code generator API to generate QR codes based on user input. The app is designed to be responsive and looks great on all devices.
 
 Getting Started
