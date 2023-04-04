@@ -1,0 +1,142 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: rgb(24, 28, 46);
+	color: #333;
+}
+
+
+  
+header {
+	background-color: #007bff;
+	color: #fff;
+	padding: 3px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+main {
+	padding: 20px;
+}
+
+.container {
+    background-color: white;
+    width: 30%;
+    height: 480px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+
+form {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+label {
+	font-size: 1.2em;
+	margin-bottom: 5px;
+}
+
+input {
+	padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #F2F2F2;
+	color: #333;
+	font-size: 1.2em;
+}
+
+button {
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	background-color: #007bff;
+	color: #fff;
+	font-size: 1.2em;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+}
+
+button:hover {
+	background-color: #0069d9;
+}
+
+#qr-code {
+	margin: 0 auto;
+	margin-top: 30px;
+	max-width: 250px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+
+
+/* Responsive Styles */
+
+/* For devices with a maximum width of 600px */
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+  input[type="text"],
+  input[type="number"] {
+    font-size: 1em;
+  }
+}
+
+/* For devices with a maximum width of 400px */
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  input[type="text"],
+  input[type="number"] {
+    font-size: 0.8em;
+  }
+  button {
+    font-size: 1em;
+  }
+}
+
+/* CSS for smaller devices */
+@media (max-width: 600px) {
+    .container {
+      width: 90%;
+      margin: 0 auto;
+    }
+  
+    input[type="text"] {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
