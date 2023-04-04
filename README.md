@@ -5,7 +5,7 @@ This project is a QR code generator app built using HTML, CSS, and JavaScript. I
 To use the app, follow these steps:
 
 Clone or download the project files to your local machine.
-Open `index.html` in a web browser.
+Open <b>`index.html`</b> in a web browser.
 Enter the data you want to encode into the QR code in the input field.
 Click the "Generate QR Code" button.
 The app will generate the QR code, which you can then scan with your phone or other device.
